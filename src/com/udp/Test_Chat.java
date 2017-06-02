@@ -40,6 +40,7 @@ public class Test_Chat extends Frame
 
 	public Test_Chat()
 	{
+		System.out.println("这是第四次改变");
 		Init();
 		DownPannel();
 		TopPannel();

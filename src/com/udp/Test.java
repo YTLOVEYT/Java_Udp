@@ -14,6 +14,8 @@ public class Test
 		DatagramPacket packet=new DatagramPacket(string.getBytes(), string.length(),InetAddress.getByName("localhost"),8088);
 		socket.send(packet);
 		socket.close();
+		
+		System.out.println("这是第三处比赛");
 	}
 	
 

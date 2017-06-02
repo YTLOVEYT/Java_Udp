@@ -14,6 +14,8 @@ public class Test2
 		int length = packet.getLength();
 		String string=new String(b, 0, length);
 		System.out.println(string);
+		
+		System.out.println("哈哈哈哈哈哈这是第二处改变");
 	}
 
 }
